@@ -20,8 +20,8 @@ The simulation environment provides a simplified setup for:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/temp-sim-env.git
-cd temp-sim-env
+git clone https://github.com/CLAIR-LAB-TECHNION/AIR_robots_sim.git
+cd AIR_robots_sim
 ```
 
 2. Create and activate a virtual environment:
