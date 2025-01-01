@@ -7,9 +7,11 @@ PyQt5==5.15.10
 PyQt5-Qt5==5.15.2
 PyQt5-sip==12.13.0
 pyrealsense2==2.55.1.6486
-ur_rtde==1.5.8
+ur-rtde==1.5.8
 chime ==0.7.0
 mujoco==3.2.2
 gymnasium==0.29.1
 dm_control==1.0.22
 pyYAML==6.0.1
+imageio==2.34.2
+frozendict==2.4.4
