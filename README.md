@@ -12,7 +12,7 @@ The simulation environment provides a simplified setup for:
 
 ## Prerequisites
 
-- Python 3.8 or higher
+- Python 3.10 or 3.11
 - MuJoCo physics engine
 - Required Python packages (see `requirements.txt`)
 
