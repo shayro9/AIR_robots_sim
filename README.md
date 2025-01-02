@@ -16,23 +16,11 @@ The simulation environment provides a simplified setup for:
 - MuJoCo physics engine
 - Required Python packages (see `requirements.txt`)
 
-## Installation
+## Clone the repository:
 
-1. Clone the repository:
 ```bash
 git clone https://github.com/CLAIR-LAB-TECHNION/AIR_robots_sim.git
 cd AIR_robots_sim
-```
-
-2. Create and activate a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. Install the required packages:
-```bash
-pip install -r requirements.txt
 ```
 
 ## Key Components
