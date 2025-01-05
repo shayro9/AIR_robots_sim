@@ -22,7 +22,7 @@ install_requires =
     pyYAML>=6.0.1
     imageio>=2.34.2
     frozendict>=2.4.4
-    Klampt>=0.9.2.post5
+    Klampt>=0.9.2
     'mediapy'
 
 [options.package_data]
