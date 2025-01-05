@@ -4,7 +4,7 @@ from klampt import Geometry3D
 from klampt.model.geometry import box
 from klampt import vis
 
-from abstract_motion_planner.abstract_motion_planner import AbstractMotionPlanner
+from motion_planner.motion_planner import AbstractMotionPlanner
 from .configurations import *
 
 
