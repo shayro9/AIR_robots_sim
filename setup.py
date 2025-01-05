@@ -36,7 +36,7 @@ setup(
         'pyYAML>=6.0.1',
         'imageio>=2.34.2',
         'frozendict>=2.4.4',
-        'Klampt>=0.9.2.post5'
+        'Klampt>=0.9.2'
     ],
     package_data={
         'mujoco_env': mujoco_env_files,
