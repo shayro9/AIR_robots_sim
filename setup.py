@@ -2,16 +2,13 @@ from setuptools import setup, find_packages
 import glob
 import os
 
-# all files inside assets dir, recursively
+# Get MuJoCo env files
 mujoco_env_files = glob.glob('sim_ur5/mujoco_env/assets/**/*', recursive=True)
-# remove mujoco_env prefix:
 mujoco_env_files = [f.replace('sim_ur5/mujoco_env/', '') for f in mujoco_env_files]
 
-# all files inside assets dir, recursively
+# Get motion planning files
 motion_planning_files = glob.glob('sim_ur5/motion_planning/assets/ur5_rob/**/*', recursive=True)
-# remove mujoco_env prefix:
-mujoco_env_files = [f.replace('sim_ur5/motion_planning/assets/', '') for f in mujoco_env_files]
-
+motion_planning_files = [f.replace('sim_ur5/motion_planning/', '') for f in motion_planning_files]
 motion_planning_files.extend(['klampt_world.xml', "ur5.urdf"])
 
 setup(
@@ -39,7 +36,7 @@ setup(
         'Klampt>=0.9.2'
     ],
     package_data={
-        'mujoco_env': mujoco_env_files,
-        'motion_planning': motion_planning_files,
+        'sim_ur5.mujoco_env': mujoco_env_files,
+        'sim_ur5.motion_planning': motion_planning_files,
     }
 )
