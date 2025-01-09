@@ -19,7 +19,7 @@ classifiers = [
 ]  
 
 [project.urls]
-Repository = "https://github.com/my-account/bench3d" #TODO
+Repository = "https://github.com/CLAIR-LAB-TECHNION/AIR_robots_sim" 
   
 [tool.setuptools.dynamic]
 version = "0.0.0"  
