@@ -5,6 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]  # defines all the package metadata
 dynamic = ["dependencies"]  # metadata to be read from a file or the package itself (see [tool.setuptools.dynamic])
 name = "air2025"
+version = "0.0.0"
 authors = [  
     { name = "Shiran Dapht", email = "shiran96@campus.technion.ac.il" },  
     { name = "Sarah Keren", email = "sarahk@technion.ac.il" },  
@@ -22,7 +23,6 @@ classifiers = [
 Repository = "https://github.com/CLAIR-LAB-TECHNION/AIR_robots_sim.git" 
   
 [tool.setuptools.dynamic]
-version = "0.0.0"  
 dependencies = { file = ["requirements.txt"] }  
   
 [tool.setuptools.packages.find]  
