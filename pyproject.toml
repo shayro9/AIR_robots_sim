@@ -26,4 +26,4 @@ Repository = "https://github.com/CLAIR-LAB-TECHNION/AIR_robots_sim.git"
 dependencies = { file = ["requirements.txt"] }  
   
 [tool.setuptools.packages.find]  
-include = ['sim_ur5', 'motion_planner']  
+include = ['sim_ur5*', 'motion_planner*']  
