@@ -19,7 +19,7 @@ classifiers = [
 ]  
 
 [project.urls]
-Repository = "https://github.com/CLAIR-LAB-TECHNION/AIR_robots_sim" 
+Repository = "https://github.com/CLAIR-LAB-TECHNION/AIR_robots_sim.git" 
   
 [tool.setuptools.dynamic]
 version = "0.0.0"  
