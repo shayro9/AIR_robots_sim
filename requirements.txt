@@ -14,4 +14,7 @@ dm_control==1.0.22
 pyYAML==6.0.1
 imageio==2.34.2
 frozendict==2.4.4
-Klampt==0.9.1.post5
+Klampt==0.9.1.post4
+typer==0.12.3
+matplotlib==3.9.2
+matplotlib-inline==0.1.7
