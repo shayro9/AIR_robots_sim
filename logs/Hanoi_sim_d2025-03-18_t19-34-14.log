@@ -1,0 +1,4 @@
+2025-03-18 19:34:14 - root - INFO - Logging setup complete for Hanoi_sim
+2025-03-18 19:34:14 - root - INFO - pick up block at (0.59, -0.8) start_height 0.27
+2025-03-18 19:34:17 - root - INFO - Planning and moving to xyz facing down ur5e_2 from [-1.56417438e+00 -1.56694744e+00 -4.97276278e-04 -1.56588207e+00
+  1.05265287e-05 -1.99549302e-06] to [] target: [0.59, -0.8, 0.27]
