@@ -1,6 +1,5 @@
 from sim_ur5.mujoco_env.sim_env import SimEnv
 from sim_ur5.motion_planning.motion_executor import MotionExecutor
-from sim_ur5.utils.Hanoi_solve import generate_hanoi_moves, kiss
 from Hanoi_A_star import a_star
 import random
 

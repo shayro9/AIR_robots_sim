@@ -1,5 +1,4 @@
 import heapq
-from collections import deque
 
 
 def a_star(start_state, goal_pole=2):
