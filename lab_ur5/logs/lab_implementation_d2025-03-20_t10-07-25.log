@@ -1,0 +1,4 @@
+2025-03-20 10:07:25 - root - INFO - Logging setup complete for lab_implementation
+2025-03-20 10:07:26 - root - DEBUG - Moving to home position (192.168.0.11), speed: 0.2, acceleration: 0.2
+2025-03-20 10:07:38 - root - DEBUG - Releasing grasp (192.168.0.11), max_width: 71.0
+2025-03-20 10:07:39 - root - DEBUG - Moving to home position (192.168.0.11), speed: 0.2, acceleration: 0.2

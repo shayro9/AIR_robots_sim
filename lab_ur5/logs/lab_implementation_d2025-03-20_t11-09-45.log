@@ -1,0 +1,11 @@
+2025-03-20 11:09:45 - root - INFO - Logging setup complete for lab_implementation
+2025-03-20 11:09:47 - root - INFO - Logging is already set up. Skipping reconfiguration.
+2025-03-20 11:09:47 - root - DEBUG - Moving to home position (192.168.0.10), speed: 1, acceleration: 0.2
+2025-03-20 11:09:54 - root - DEBUG - Moving to home position (192.168.0.11), speed: 1, acceleration: 0.2
+2025-03-20 11:10:00 - root - DEBUG - Releasing grasp (192.168.0.10), max_width: 71.0
+2025-03-20 11:10:01 - root - DEBUG - Releasing grasp (192.168.0.11), max_width: 71.0
+2025-03-20 11:10:01 - root - INFO - ur5e_2 picking up at -0.7-0.60.03 with start height 0.2
+2025-03-20 11:10:01 - root - INFO - ur5e_2 planning and moving to xyzrz=-0.7-0.60.20.03. pose in robot frame:[-5.99999999e-02 -7.30000000e-01  2.00000000e-01  3.14123923e+00
+  4.71221227e-02  2.88530254e-18]
+2025-03-20 11:10:01 - root - ERROR - ur5e_2 no inverse kinematic solution found at all for pose [-5.99999999e-02 -7.30000000e-01  2.00000000e-01  3.14123923e+00
+  4.71221227e-02  2.88530254e-18]

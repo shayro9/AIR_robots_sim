@@ -11,12 +11,14 @@ Z = 2
 def stack_stage1(block_positions, target):
     motion_planner = MotionPlanner()
     gt = GeometryAndTransforms.from_motion_planner(motion_planner)
-    r2_controller = ManipulationController(ur5e_2["ip"], ur5e_2["name"], motion_planner, gt)
+    r2_controller = ManipulationController(ur5e_1["ip"], ur5e_1["name"], motion_planner, gt)
     r2_controller.release_grasp()
     r2_controller.move_home()
     for i, block in enumerate(block_positions):
-        r2_controller.pick_up(block[X], block[Y], block[Z] + 0.12)
+        r2_controller.pick_up(block[X], block[Y], block[Z] + 0.10)
         r2_controller.put_down(target[X], target[Y], target[Z] + i * 0.12 + 0.03)
+
+    r2_controller.move_home()
 
 
 def stack_stage2(cube_position):
@@ -27,7 +29,7 @@ def stack_stage2(cube_position):
 
     # reset environment
     r1_controller.move_home(speed=1)
-    r2_controller.move_home(speed=1)
+    #r2_controller.move_home(speed=1)
     r1_controller.release_grasp()
     r2_controller.release_grasp()
 
@@ -40,7 +42,7 @@ def stack_stage2(cube_position):
     r1_controller.plan_and_moveJ(
         [-1.421, -1.952660699883932, -1.5125269889831543, -0.47875674188647466, 0.03028770722448826,
          -0.7987430731402796], speed=1, acceleration=1)
-    r1_controller.moveL_relative([-0.035, 0, 0], speed=0.05)
+    r1_controller.moveL_relative([-0.19, -0.01, -0.01], speed=0.05)
 
     r1_controller.grasp()
     r2_controller.release_grasp()
@@ -50,10 +52,16 @@ def stack_stage2(cube_position):
     target = [0.3, -0.3, 0.03]
     r1_controller.put_down(target[0], target[1], target[2])
 
-block_position = [
-    [-0.7, -0.6, 0.03],
-    [-0.7, -0.7, 0.03],
-    [-0.7, -0.8, 0.03],
-    [-0.7, -0.9, 0.03]]
+# block_position = [
+#     [-0.7, -0.6, 0.03],
+#     [-0.7, -0.7, 0.03],
+#     [-0.7, -0.8, 0.03],
+#     [-0.7, -0.9, 0.03]]
 
-stack_stage1(block_position, [-0.6, -0.6, 0.03])
+block_position = [
+    [0.4, 0, 0.03],
+    [0.5, 0, 0.03],
+    [0.6, 0, 0.03],
+    [0.7, 0, 0.03]]
+
+stack_stage2([-0.7, -0.6, 0.03])

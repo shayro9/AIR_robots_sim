@@ -1,0 +1,22 @@
+2025-03-20 11:14:14 - root - INFO - Logging setup complete for lab_implementation
+2025-03-20 11:14:15 - root - INFO - Logging is already set up. Skipping reconfiguration.
+2025-03-20 11:14:15 - root - DEBUG - Moving to home position (192.168.0.10), speed: 1, acceleration: 0.2
+2025-03-20 11:14:22 - root - DEBUG - Releasing grasp (192.168.0.10), max_width: 71.0
+2025-03-20 11:14:22 - root - DEBUG - Releasing grasp (192.168.0.11), max_width: 71.0
+2025-03-20 11:14:23 - root - INFO - ur5e_2 picking up at -0.7-0.60.03 with start height 0.2
+2025-03-20 11:14:23 - root - INFO - ur5e_2 planning and moving to xyzrz=-0.7-0.60.20.03. pose in robot frame:[-5.99999999e-02 -7.30000000e-01  2.00000000e-01  3.14123923e+00
+  4.71221227e-02  2.88530254e-18]
+2025-03-20 11:14:23 - root - INFO - ur5e_2 Found IK solution in first try
+2025-03-20 11:14:23 - root - INFO - ur5e_2 planning and movingJ to [1.3067489034931352, -0.987260182186886, 1.1594699861621258, -1.743050930818547, -1.5661256062202717, 2.846911395461852] from [1.306692361831665, -0.9873314660838624, 1.1595976988421839, -1.743012090722555, -1.5660746733294886, 2.846849203109741]
+2025-03-20 11:14:23 - root - INFO - ur5e_2 Found path with 1 waypoints, moving...
+2025-03-20 11:14:23 - root - DEBUG - Moving along path (192.168.0.11), speed: 1.0, acceleration: 1.0, blend_radius: 0.05
+2025-03-20 11:14:23 - root - INFO - ur5e_2 Updated motion planner with current configuration [1.3067164421081543, -0.9872871798327942, 1.1594393889056605, -1.7430478535094203, -1.5660870710956019, 2.8468730449676514]
+2025-03-20 11:14:23 - root - DEBUG - Releasing grasp (192.168.0.11), max_width: 71.0
+2025-03-20 11:14:24 - root - DEBUG - ur5e_2 moving down until contact
+2025-03-20 11:14:29 - root - DEBUG - Moving to relative position (192.168.0.11),from [-0.060096571607069445, -0.7302747123161839, -0.006837289155887993, 3.1401702956851874, 0.04710757661222397, -0.0006208161928794653] to [-0.060096571607069445, -0.7302747123161839, 0.003162710844112007, 3.1401702956851874, 0.04710757661222397, -0.0006208161928794653], speed: 0.1, acceleration: 0.1
+2025-03-20 11:14:29 - root - DEBUG - ur5e_2 grasping and picking up
+2025-03-20 11:14:29 - root - DEBUG - Grasping (192.168.0.11), min_width: 33.0
+2025-03-20 11:14:31 - root - INFO - ur5e_2 Updated motion planner with current configuration [1.3067164421081543, -0.9872558873942872, 1.1594308058368128, -1.7431398830809535, -1.5660870710956019, 2.8468611240386963]
+2025-03-20 11:14:31 - root - INFO - ur5e_2 planning and movingJ to [4.802989482879639, -1.6509276829161585, -1.7187272310256958, -1.4068054866841813, -0.0038974920855920914, -1.4862588087665003] from [1.3067164421081543, -0.9872558873942872, 1.1594308058368128, -1.7431398830809535, -1.5660870710956019, 2.8468611240386963]
+2025-03-20 11:14:41 - root - INFO - ur5e_2 Found path with 5 waypoints, moving...
+2025-03-20 11:14:41 - root - DEBUG - Moving along path (192.168.0.11), speed: 1, acceleration: 1, blend_radius: 0.05
